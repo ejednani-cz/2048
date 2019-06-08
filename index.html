@@ -20,16 +20,21 @@
   <div class="container">
     <div class="heading">
       <h1 class="title">Err 404</h1>
-      <h2 class="title">Stránka nenalezena</h2>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
       </div>
+      <a class="restart-button">Nová hra</a>
     </div>
 
     <div class="above-game">
       <!--<p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>-->
-      <a class="restart-button">Nová hra</a>
+      <p class="game-explanation">
+          Ale to je nemilé :(<br />
+          Stránku, kterou hledáte, nemůžeme nalézt. Naši programátoři se nejspíš místo práce baví, jak jinak vysvětlit tu hru dole?<br /><br />
+          <strong class="important">Jak hrát:</strong> Šipkami na klávesnici nebo tahem prstem posunujte dlaždice po herní ploše. Když se dotknou dvě dlaždice se stejnou číselnou hodnotou, sečtou se. <strong>Hra končí při dosažení dlaždice s hodnotou 2048!</strong>
+        </p>
+      
     </div>
 
     <div class="game-container">
@@ -71,11 +76,7 @@
       <div class="tile-container">
 
       </div>
-    </div>
-
-    <p class="game-explanation">
-      <strong class="important">Jak hrát:</strong> Pomocí <strong>kláves se šipkami</strong> pohybujte čtverci. Když se dva čtverce se stejnou hodnotou dotknou, <strong>spojí se v jeden!</strong>
-    </p>
+    </div>    
   </div>
 
   <script src="js/bind_polyfill.js"></script>
